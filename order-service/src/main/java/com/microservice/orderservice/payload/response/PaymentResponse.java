@@ -1,6 +1,6 @@
 package com.microservice.orderservice.payload.response;
 
-import com.microservice.orderservice.utils.PaymentMode;
+import com.microservice.commonmodels.payload.utils.PaymentMode;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
 package com.microservice.orderservice.external.client;
 
-import com.microservice.orderservice.payload.request.PaymentRequest;
+import com.microservice.commonmodels.payload.request.PaymentRequest;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

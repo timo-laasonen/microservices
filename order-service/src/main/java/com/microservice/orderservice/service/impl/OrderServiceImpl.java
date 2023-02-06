@@ -1,10 +1,10 @@
 package com.microservice.orderservice.service.impl;
 
+import com.microservice.commonmodels.payload.request.PaymentRequest;
 import com.microservice.orderservice.exception.OrderServiceCustomException;
 import com.microservice.orderservice.external.client.PaymentService;
 import com.microservice.orderservice.external.client.ProductService;
 import com.microservice.orderservice.payload.request.OrderRequest;
-import com.microservice.orderservice.payload.request.PaymentRequest;
 import com.microservice.orderservice.payload.response.OrderResponse;
 import com.microservice.orderservice.payload.response.PaymentResponse;
 import com.microservice.orderservice.payload.response.ProductResponse;

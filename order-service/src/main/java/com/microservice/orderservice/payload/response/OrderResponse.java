@@ -1,6 +1,6 @@
 package com.microservice.orderservice.payload.response;
 
-import com.microservice.orderservice.utils.PaymentMode;
+import com.microservice.commonmodels.payload.utils.PaymentMode;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -36,7 +36,7 @@ public class OrderResponse {
     @AllArgsConstructor
     @NoArgsConstructor
     @Builder
-    public static class PaymentDetails{
+    public static class PaymentDetails {
         private Long paymentId;
         private PaymentMode paymentMode;
         private String paymentStatus;

@@ -7,13 +7,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.0.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <modules>
         <module>product-service</module>
         <module>payment-service</module>
         <module>order-service</module>
         <module>service-registry</module>
+        <module>common-models</module>
     </modules>
     <groupId>com.microservice</groupId>
     <artifactId>microservices</artifactId>

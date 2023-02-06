@@ -3,10 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.2</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.microservice</groupId>
+        <artifactId>microservices</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.microservice</groupId>
     <artifactId>payment-service</artifactId>
@@ -16,6 +15,7 @@
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2022.0.1</spring-cloud.version>
+        <common-models-version>0.0.1</common-models-version>
     </properties>
     <dependencies>
         <dependency>
@@ -40,6 +40,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.microservice</groupId>
+            <artifactId>common-models</artifactId>
+            <version>${common-models-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
